@@ -1,11 +1,10 @@
-import './App.css'
 import { TextEditor } from './components/TextEditor'
 
 function App() {
   return (
     <>
       <main>
-        <h1>CHAT</h1>
+        <h1>Date goes here </h1>
         <TextEditor />
       </main>
     </>
