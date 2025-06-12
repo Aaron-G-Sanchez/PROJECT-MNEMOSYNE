@@ -1,6 +1,6 @@
 import { TextEditor } from './components/TextEditor'
 
-function App() {
+export const App = () => {
   return (
     <>
       <main>
