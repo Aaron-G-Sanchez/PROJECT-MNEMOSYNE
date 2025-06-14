@@ -1,0 +1,16 @@
+.editor-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ql-toolbar.ql-snow{
+  display: flex;
+  border: none !important;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(236, 236, 228, 0.4);
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+} 

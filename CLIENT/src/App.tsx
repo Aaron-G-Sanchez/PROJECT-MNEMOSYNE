@@ -4,7 +4,7 @@ export const App = () => {
   return (
     <>
       <main>
-        <h1>Date goes here </h1>
+        <h1 className="note-heading">NOTE HEADING</h1>
         <TextEditor />
       </main>
     </>
