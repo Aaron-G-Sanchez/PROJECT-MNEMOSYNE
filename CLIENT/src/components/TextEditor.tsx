@@ -1,4 +1,5 @@
 import 'quill/dist/quill.snow.css'
+import './TextEditorStyles.css'
 
 import Quill from 'quill'
 import { useEffect, useRef } from 'react'
@@ -20,7 +21,7 @@ export const TextEditor = () => {
 
     new Quill(editorContainer, {
       theme: 'snow',
-      placeholder: 'Enter prompt here',
+      // placeholder: 'Enter prompt here',
       modules: {
         toolbar: toolBarOptions
       }
